@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #37494a;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+legend {
+  color: #080a0a;
+  font-size: 25px;
+  text-align: center;
+  margin: 10px 0 5px 0;
+  padding: 0 90px 10px 0px;
+  color: #000;
+  text-shadow: -2px -2px 1px #fff, 
+                -2px 2px 1px #fff, 
+                2px -2px 1px #fff,
+                 2px 1px 1px #fff;
+}
+
+.form-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 600px;
+  padding: 0 50px 10px 150px;
+  border: 3px solid #5bc2c9;
+  border-radius: 1em;
+  width: "25%";
+}
+
+label {
+  padding: 15px 5px 5px 0px;
+  display: block;
+  color: #5bc2c9;
+}
+
+.area {
+  margin: 5px 0 0 0;
+  padding: 10px 18px;
+  background: #97c6c9;
+  border: 3px solid #58e9e9;
+  display: block;
+}
+
+.date-one {
+  padding: 10px 18px;
+  background: #97c6c9;
+  border: 3px solid #58e9e9;
+  display: block;
+}
+
+.color {
+  border: 2px solid #58e9e9;
+}
+
+.date {
+  padding: 15px 0 0 0;
+}
+
+.first-title {
+  padding: 15px 5px 5px 0px;
+}
+
+.campo {
+  padding: 0 5px 20px 0;
+  display: inline;
+  font-weight: 505;
+  color: #97c6c9;
+}
+
+.bio {
+  margin: 5px 0 0 0;
+  display: block;
+  padding: 15px 30px;
+  background: #97c6c9;
+  border: 3px solid #58e9e9;
+}
+
+.photo {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+button {
+  margin: 15px 5px 0 0;
+  padding: 8px 17px;
+  background: #5e7b7d;
+  border: 3px solid #58e9e9;
+  color: #064447;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: nunito;
+  cursor: pointer;
+}
+
+.photo-name,
+.phone,
+.link,
+.senha {
+  margin: 5px 0 0 0;
+  display: block;
+  padding: 10px 18px;
+  background: #97c6c9;
+  border: 3px solid #58e9e9;
+}

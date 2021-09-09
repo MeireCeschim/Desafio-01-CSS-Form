@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles-challenge1.css" />
+  <link href="https: //fonts.googleapis.com/css2? family = Nunito: wght @ 700 & display = swap " rel=" stylesheet " />
+  <title>Desafio 2 - HTML</title>
+</head>
+
+<body style="font-family: 'Nunito', sans-serif">
+  <div class="form-container">
+    <form action="" method="POST" enctype="multipart/form-data">
+      <legend>FAÇA SEU CADASTRO</legend>
+      <label>Nome</label>
+      <input class="area" type="text" name="nome" required />
+
+      <label for="email">Email</label>
+      <input class="area" type="email" email="email" id="email" required />
+
+      <label for="idade">Idade</label>
+      <input class="area" type="number" nome="idade" id="idade" required min="12" />
+
+      <label class="first-title" for="Data-de-Nascimento">Data de Nascimento</label>
+      <input class="date-one" type="Date" nome="Data-de-Nascimento" id="Data-de-Nascimento" required />
+
+      <label class="first-title">Onde você possui conta</label>
+
+      <label class="campo">
+        <input type="checkbox" name="instragram" />Instagram
+      </label>
+
+      <label class="campo">
+        <input type="checkbox" name="facebook" />Facebook
+      </label>
+
+      <label class="campo">
+        <input type="checkbox" name="youtube" />Youtube
+      </label>
+
+      <label class="first-title">Sexo</label>
+
+      <label class="campo">
+        <input type="radio" name="genero" value="masculino" />Masculino
+
+        <input type="radio" name="genero" value="feminino" />Feminino
+      </label>
+
+      <label>Cor dos Olhos
+        <input class="color" type="color" name="cor-dos-olhos" />
+      </label>
+
+      <label>Biografia
+        <textarea class="bio" name="bio"></textarea>
+      </label>
+
+      <label>Foto do Perfil
+        <input class="photo" type="file" name="arquivo" accept="image/*" style="display: none" />
+        <button class="photo-name" onclick="escolherArquivo()">
+          Escolha o arquivo
+        </button>
+      </label>
+
+      <label>Telefone
+        <input class="area" class="phone" type="tel" nome="telefone" />
+      </label>
+
+      <label>Link do Perfil do Facebook
+        <input class="link" type="url" name="url" />
+      </label>
+
+      <label>Senha
+        <input class="senha" type="passoword" name="senha" min="6" max="8" required />
+      </label>
+
+      <button style="font-family: 'Nunito', sans-serif" type="reset" name="reset">
+        Limpar
+      </button>
+      <button style="font-family: 'Nunito', sans-serif" type="submit" name="submit">
+        Enviar Dados
+      </button>
+    </form>
+  </div>
+</body>
+
+</html>
